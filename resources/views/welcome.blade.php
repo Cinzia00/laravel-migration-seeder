@@ -19,7 +19,7 @@
     <main class="bg-light">
         <div class="container">
             <div class="row py-5 text-center">
-                <h4 class="py-5">Elenco treni in partenza da oggi:</h4>
+                <h4 class="py-5">Elenco treni in partenza:</h4>
                 @foreach($trains as $train)
                     <div class="col-3">
                         <h5>{{ $train->azienda }}</h5>
